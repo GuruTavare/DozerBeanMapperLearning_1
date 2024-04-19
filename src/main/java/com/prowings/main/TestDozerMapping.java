@@ -16,7 +16,7 @@ public class TestDozerMapping {
 
 	public static void main(String[] args) {
 
-		Person person = new Person("Ram", 29, "Pune");
+		Person person = new Person("Ram", 29, "Pune",2,954547200);
 
 		DozerBeanMapper beanMapper = new DozerBeanMapper();
 		beanMapper.setMappingFiles(Arrays.asList("Dozer-Mapper.xml"));

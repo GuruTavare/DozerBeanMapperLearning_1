@@ -16,4 +16,7 @@ public class EmployeeDTO {
 	private String employeeName;
 	private int age;
 	private String address;
+	private String role;
+	private String birthDate;
+	
 }

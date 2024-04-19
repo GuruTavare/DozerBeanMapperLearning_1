@@ -15,4 +15,7 @@ public class Person {
 	private String name;
 	private int age;
 	private String address;
+	private int role;
+	//in Epoch
+	private long birthDate;
 }
