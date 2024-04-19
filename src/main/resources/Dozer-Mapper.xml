@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://dozer.sourceforge.net
+      http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <mapping>
+        <class-a>com.prowings.source.Person</class-a>
+        <class-b>com.prowings.target.EmployeeDTO</class-b>
+        <field>
+            <a>name</a>
+            <b>employeeName</b>
+        </field>
+    </mapping>
+    <mapping>
+        <class-a>com.prowings.source.Student</class-a>
+        <class-b>com.prowings.target.CandidateDTO</class-b>
+        <field>
+            <a>name</a>
+            <b>completeName</b>
+        </field>
+        <field>
+            <a>address</a>
+            <b>correspondence</b>
+        </field>
+    </mapping>
+    <mapping>
+        <class-a>com.prowings.source.Address</class-a>
+        <class-b>com.prowings.target.AddressDTO</class-b>
+        <field>
+            <a>pin</a>
+            <b>pincode</b>
+        </field>
+    </mapping>
+</mappings>
